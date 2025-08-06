@@ -5,21 +5,17 @@
     <div class="text-area">
       <div class="introduction-text">
         <h1>Hi, I'm Mithibe</h1>
+        <h3>Crafting Code, Pixels & Play</h3>
         <p>
-          I'm a full stack developer [Vue.js & Laravel] with a focus on creating (and occasionally designing) excpetional digital experiences that are fast, accessible, visually appealing and responsive. Even though I have been creating web application for over 7 years, I still love it as if it was something new.
+          I'm a future focused web developer diving deep into software engineering, UI/UX design and game development. Building clean interfaces, functional systems and immersive expereinces.
         </p>
       </div>
 
-      <div class="extras">
-        Nairobi, Kenya <br>
-        Available for new projects
-      </div>
-
-      <div class="socials">
+      <div class="call-to-action">
         <ul>
-          <li>Github</li>
-          <li>Twitter</li>
-          <li>Figma</li>
+          <li><a href="#work">Explore My Work</a></li>
+          <li><a href="#blogs">Read My Blogs</a></li>
+          <li><a href="#contacts">Let's Talk</a></li>
         </ul>
       </div>
     </div>
