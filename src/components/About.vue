@@ -9,32 +9,17 @@
 
     <div class="text-area">
       <div class="text-content">
-        <h1>Curious about me? Here you have it</h1>
+        <h1>Who I am:</h1>
         <p>
-          I'm a passionate, self-proclaimed designer who specializes in full stack development (Vue.js & Laravel). I am very enthusiastic about bringing the technical and visual aspects of digital products to life. User expereince, pixel perfect design and writing clear, readable, highly performant code matters to me.
+          I'm a self-driven creative and problem solver based in Kenya. Right now, I work with HTML, CSS and JavaScript to build responsive, modern websites. But that's just the beginning.
+        </p>
+        <p>
+          I'm Currently learning Vue and Laravel to level up my web development workflow and I'm stepping into the world of software engineering with C#, especially for game development. I also design interfaces using Figma with a strong eye for detail and userbility.
         </p>
 
+        <h3>What Drives Me:</h3>
         <p>
-          I begam my journey as a web developer in 2021 and since then, I've continued to grow and evolve as a developer, taking on new challenges and learning the latest technologies along the way. Now in my early 20's, 4 years after starting my web development journey, I'm building cutting-edge web applications using modern technologies such as Vue.js, Laravel, C# and much more.
-        </p>
-
-        <p>
-          I am very much a progressive thinker and enjoy working on products end to end, from ideation all the way to development.
-        </p>
-
-        <p>
-          When I'm not in full-on developer mode, you can find me hovering around on twitter or on indie hacker, witnessing the journey of early startups or enjoying some free time. You can follow me on Twitter where I share tech-related bites and build in public or you can follow me on Github.
-        </p>
-
-        <p>
-          Finally, some quick bits about me.
-          <ul>
-            <li>Bsc. in Computer Science</li>
-            <li>Avid learner</li>
-            <li>Full time freelancer</li>
-            <li>Aspiring Game developer</li>
-          </ul>
-          One last thing. I'm available for freelance work, so feel free to reach out and say hello! promise I don't bite
+          I'm obsessed with building things, from usable UIs to scalable backends to immersive games. My goal is to become a full-stack builder who can take a product from idea to launch, both visually and functionally.
         </p>
       </div>
     </div>
