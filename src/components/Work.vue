@@ -3,9 +3,9 @@ import experiences from '@/data/Experiences.json'
 
 </script>
 <template>
-  <div class="page-wrapper" id="experience">
-    <h1>Experience</h1>
-    <p>Here is a quick summary of my most recent experiences:</p>
+  <div class="page-wrapper" id="work">
+    <h1>Work</h1>
+    <p>Here are some noteworthy projects I have built</p>
     <div class="experience-cards">
       <ul>
         <li v-for="(experience, index) in experiences" :key="index">

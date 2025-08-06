@@ -1,7 +1,7 @@
 <script setup>
 </script>
 <template>
-  <div class="page-wrapper">
+  <div class="page-wrapper" id="home">
     <div class="text-area">
       <div class="introduction-text">
         <h1>Hi, I'm Mithibe</h1>
@@ -45,22 +45,22 @@
   justify-content: space-evenly;
 }
 
-.text-area h1{
+/* .text-area h1{
   font-weight: 900;
   font-size: 48px;
-}
+} */
 
-.text-area p{
+/* .text-area p{
   font-size: 18px;
-}
+} */
 
-.extras{
+/* .extras{
   font-size: 18px;
-}
+} */
 
 .socials ul{
   list-style: none;
-  font-size: 18px;
+  /* font-size: 18px; */
   display: flex;
   justify-content: space-evenly;
 }

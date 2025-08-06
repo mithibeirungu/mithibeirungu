@@ -8,19 +8,25 @@
         <a href="#">
           <li>Home</li>
         </a>
-        <a href="#About">
+        <a href="#about">
           <li>About</li>
         </a>
-        <a href="#Portfolio">
-          <li>Portfolio</li>
+        <a href="#skills">
+          <li>Skills</li>
         </a>
-        <a href="#Services">
-          <li>Services</li>
+        <a href="#experience">
+          <li>Experience</li>
+        </a>
+        <a href="#work">
+          <li>Work</li>
+        </a>
+        <a href="#testimonials">
+          <li>Testimonials</li>
         </a>
         <a href="#Blogs">
           <li>Blogs</li>
         </a>
-        <a href="#Contact">
+        <a href="#contact">
           <li>Contact</li>
         </a>
         <li> light/dark </li>

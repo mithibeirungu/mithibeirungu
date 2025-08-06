@@ -1,6 +1,6 @@
 <script setup></script>
 <template>
-  <div class="page-wrapper">
+  <div class="page-wrapper" id="about">
     <div class="image-area">
       <div class="image">
         <img src="../assets/Mithibe2.jpg" alt="I am also somewhere around here">
@@ -77,13 +77,13 @@ img{
   place-items: center;
 }
 
-.text-area h1{
+/* .text-area h1{
   font-weight: 900;
   font-size: 48px;
-}
+} */
 
 .text-area p{
-  font-size: 18px;
+  /* font-size: 18px; */
   margin: 12px;
 }
 </style>

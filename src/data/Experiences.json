@@ -1,0 +1,20 @@
+[
+  {
+    "icon": "Kenya Power",
+    "role": "Attachee",
+    "experience": "IT technician",
+    "date": "May 2023 - July 2023"
+  },
+  {
+    "icon": "The Artisan Company",
+    "role": "Intern Developer",
+    "experience": "Developed his.MD, fixed some bugs",
+    "date": "June 2025 - July 2025"
+  },
+  {
+    "icon": "Freelance",
+    "role": "Web developer",
+    "experience": "Developing everything using Vue.js, HTML, CSS, JS, Laravel etc",
+    "date": "August 2023 - Present"
+  }
+]

@@ -1,7 +1,7 @@
 <script setup>
 </script>
 <template>
-  <div class="page-wrapper">
+  <div class="page-wrapper" id="skills">
     <h1>Skills</h1>
     <p>The skills, tools and technologies I am good at:</p>
     <div class="icons">
@@ -30,14 +30,14 @@
   text-align: center;
 }
 
-h1{
+/* h1{
   font-weight: 900;
   font-size: 48px;
-}
+} */
 
-p{
+/* p{
   font-size: 18px;
-}
+} */
 
 ul{
   list-style: none;
