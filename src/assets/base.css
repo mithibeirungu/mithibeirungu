@@ -35,7 +35,7 @@
   --vt-c-text-light-1: var(--vt-c-emerald);
   --vt-c-text-light-2: rgba(16, 185, 129, 0.7);
   --vt-c-text-dark-1: #ffffff;
-  --vt-c-text-dark-2: rgba(255, 255, 255, 0.6);
+  --vt-c-text-dark-2: rgba(255, 255, 255, 0.8);
 }
 
 /* semantic color variables for this project */

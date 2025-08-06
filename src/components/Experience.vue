@@ -34,6 +34,8 @@ function getImageUrl(filename) {
 </template>
 <style scoped>
 .page-wrapper{
+  position: relative;
+  /* border: 1px solid #333; */
   width: 100%;
   height: 100%;
   display: flex;
@@ -41,12 +43,28 @@ function getImageUrl(filename) {
   place-items: center;
 }
 
+img{
+  height: 100px;
+}
+
+ul{
+  list-style: none;
+}
+
+.experience-cards {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .card {
+  position: relative;
   margin-bottom: 24px;
-  width: 90%;
-  min-width: 424px;
-  min-height: 200px; /* lowered height */
-  border-radius: 28px;
+  width: 70%;
+  min-width: 400px;
+  height: 200px; /* lowered height */
+  border-radius: 24px;
   display: flex;
   place-items: center;
   justify-content: center;
@@ -67,8 +85,9 @@ function getImageUrl(filename) {
 }
 
 .content {
-  height: 180px;
-  width: 95%;
+  position: relative;
+  height: calc(100% - 16px);
+  width: calc(100% - 16px);
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
   border-radius: 16px;
@@ -83,14 +102,5 @@ function getImageUrl(filename) {
     2px 2px 6px rgba(0, 0, 0, 0.2);
   color: #f9fefb; /* keep text readable */
   font-weight: 500;
-}
-
-img{
-  height: 100px;
-}
-
-
-ul{
-  list-style: none;
 }
 </style>

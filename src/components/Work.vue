@@ -1,12 +1,18 @@
 <script setup>
-import experiences from '@/data/Experiences.json'
+import works from '@/data/Work.json'
+
+// Check if it's an array and has content
+const hasData = Array.isArray(works) && works.length > 0
 
 </script>
 <template>
   <div class="page-wrapper" id="work">
     <h1>Work</h1>
     <p>Here are some noteworthy projects I have built</p>
-    <div class="experience-cards">
+    <div v-if="!hasData">
+      <p>No work data available at the moment.</p>
+    </div>
+    <div class="experience-cards" v-else>
       <ul>
         <li v-for="(experience, index) in experiences" :key="index">
           <div class="card">

@@ -1,12 +1,17 @@
 <script setup>
-import experiences from '@/data/Experiences.json'
+import testimonials from '@/data/Testimonials.json'
 
+// Check if there is any testimonial data
+const hasData = Array.isArray(testimonials) && testimonials.length > 0
 </script>
 <template>
   <div class="page-wrapper" id="testimonials">
     <h1>Testimonials</h1>
     <p>Nice things people have said about my work:</p>
-    <div class="experience-cards">
+    <div v-if="!hasTestimonials">
+      <p>No testimonials available at the moment.</p>
+    </div>
+    <div class="experience-cards" v-else>
       <ul>
         <li v-for="(experience, index) in experiences" :key="index">
           <div class="card">
