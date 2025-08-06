@@ -11,7 +11,7 @@
       </div>
 
       <div class="extras">
-        Nairobi, Kenya
+        Nairobi, Kenya <br>
         Available for new projects
       </div>
 
@@ -45,20 +45,22 @@
   justify-content: space-evenly;
 }
 
-/* .text-area h1{
+.text-area h1{
   font-weight: 900;
-  font-size: 48px;
-} */
+  margin-bottom: 16px;
+}
 
-/* .text-area p{
-  font-size: 18px;
-} */
+.text-area p{
+  margin-bottom: 64px;
+}
 
 /* .extras{
   font-size: 18px;
 } */
 
 .socials ul{
+  position: absolute;
+  bottom: 80px;
   list-style: none;
   /* font-size: 18px; */
   display: flex;
@@ -74,21 +76,42 @@
   align-items: center;
 }
 
-.image{
-  /* max-height: 400px; */
-  /* max-width: 400px; */
-  width: 412px;
-  height: 412px;
-  box-shadow: inset 2px 2px 5px #555;
-  border-radius: 22px;
+.image {
+  height: 424px;
+  width: 424px;
   display: flex;
-  place-items: center;
   justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+
+  /* Emerald gradient background to mimic shine */
+  background: linear-gradient(
+    145deg,
+    #34d399,
+    #10b981,
+    #059669
+  );
+
+  /* Gold outer border + inner glow */
+  box-shadow:
+    0 0 0 4px #d4af37,           /* gold outer border */
+    inset 0 0 15px rgba(212, 175, 55, 0.5), /* gold inner glow */
+    inset -4px -4px 10px rgba(0, 0, 0, 0.2), /* top-left inner bevel */
+    inset 4px 4px 10px rgba(255, 255, 255, 0.1); /* bottom-right light */
 }
 
-img{
+img {
   height: 400px;
+  width: 400px;
   border-radius: 16px;
-  box-shadow: -1px -1px 5px #555;
+
+  /* Subtle inset feel with gemstone-like shadow */
+  box-shadow:
+    0 0 20px rgba(16, 185, 129, 0.4),
+    -2px -2px 5px rgba(255, 255, 255, 0.1),
+    2px 2px 8px rgba(0, 0, 0, 0.3);
+
+  object-fit: cover;
 }
+
 </style>

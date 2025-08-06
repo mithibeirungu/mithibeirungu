@@ -1,20 +1,14 @@
 [
   {
-    "icon": "Kenya Power",
+    "icon": "logos--kenya-power.png",
     "role": "Attachee",
-    "experience": "IT technician",
+    "experience": ["Designed a new design for the My power app", "Built an image  filter using python and OpenCV"],
     "date": "May 2023 - July 2023"
   },
   {
-    "icon": "The Artisan Company",
-    "role": "Intern Developer",
-    "experience": "Developed his.MD, fixed some bugs",
-    "date": "June 2025 - July 2025"
-  },
-  {
     "icon": "Freelance",
-    "role": "Web developer",
-    "experience": "Developing everything using Vue.js, HTML, CSS, JS, Laravel etc",
+    "role": "Freelance Developer",
+    "experience": ["Hotel booking system", "House hunting system"],
     "date": "August 2023 - Present"
   }
 ]

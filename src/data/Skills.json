@@ -1,0 +1,30 @@
+[
+  {
+    "name": "HTML",
+    "icon": "logos--html-5.svg"
+  },
+  {
+    "name": "CSS",
+    "icon": "logos--css-3.svg"
+  },
+  {
+    "name": "Javascript",
+    "icon": "logos--javascript.svg"
+  },
+  {
+    "name": "Vue",
+    "icon": "logos--vue.svg"
+  },
+  {
+    "name": "Figma",
+    "icon": "logos--figma.svg"
+  },
+  {
+    "name": "Git",
+    "icon": "logos--git-icon.svg"
+  },
+  {
+    "name": "Github",
+    "icon": "logos--github-icon.svg"
+  }
+]

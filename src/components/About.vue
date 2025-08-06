@@ -54,22 +54,44 @@
   justify-content: center;
 }
 
-.image{
-  height:414px;
-  width: 414px;
+.image {
+  height: 424px;
+  width: 424px;
   display: flex;
   justify-content: center;
-  place-items: center;
-  box-shadow: inset 2px 2px 5px #555;
-  border-radius: 24px
+  align-items: center;
+  border-radius: 24px;
+
+  /* Emerald gradient background to mimic shine */
+  background: linear-gradient(
+    145deg,
+    #34d399,
+    #10b981,
+    #059669
+  );
+
+  /* Gold outer border + inner glow */
+  box-shadow:
+    0 0 0 4px #d4af37,           /* gold outer border */
+    inset 0 0 15px rgba(212, 175, 55, 0.5), /* gold inner glow */
+    inset -4px -4px 10px rgba(0, 0, 0, 0.2), /* top-left inner bevel */
+    inset 4px 4px 10px rgba(255, 255, 255, 0.1); /* bottom-right light */
 }
 
-img{
+img {
   height: 400px;
   width: 400px;
   border-radius: 16px;
-  box-shadow: -1px -1px 5px #555;
+
+  /* Subtle inset feel with gemstone-like shadow */
+  box-shadow:
+    0 0 20px rgba(16, 185, 129, 0.4),
+    -2px -2px 5px rgba(255, 255, 255, 0.1),
+    2px 2px 8px rgba(0, 0, 0, 0.3);
+
+  object-fit: cover;
 }
+
 
 .text-area{
   width: 60%;
@@ -77,13 +99,16 @@ img{
   place-items: center;
 }
 
-/* .text-area h1{
+.text-area h1{
   font-weight: 900;
-  font-size: 48px;
-} */
+}
 
 .text-area p{
-  /* font-size: 18px; */
   margin: 12px;
+}
+
+ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 </style>
